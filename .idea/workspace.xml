@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0d5f659-cc86-4440-8df6-8979869dd7f4" name="Changes" comment="Solved 2015 Day 2 Puzzle 2 in Python and Rust.">
+      <change beforePath="$PROJECT_DIR$/2015/day_2/d2_p2_solution" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2S2u9gyctPDybx7qz59FT64ZDjJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/alexander/advent_of_code"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0d5f659-cc86-4440-8df6-8979869dd7f4" name="Changes" comment="" />
+      <created>1688356846108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688356846108</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1688357368320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688357368320</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2015 D2 P1 solved in Python and Rust.">
+      <created>1688393371999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688393371999</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed Rust binaries from repo. Only code should live here.">
+      <created>1688393572249</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688393572249</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Solved 2015 Day 2 Puzzle 2 in Python and Rust.">
+      <created>1688417484049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688417484049</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="2015 D2 P1 solved in Python and Rust." />
+    <MESSAGE value="Removed Rust binaries from repo. Only code should live here." />
+    <MESSAGE value="Solved 2015 Day 2 Puzzle 2 in Python and Rust." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved 2015 Day 2 Puzzle 2 in Python and Rust." />
+  </component>
+</project>
