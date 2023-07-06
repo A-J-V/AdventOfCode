@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0d5f659-cc86-4440-8df6-8979869dd7f4" name="Changes" comment="Solved 2015 Day 2 Puzzle 2 in Python and Rust.">
-      <change beforePath="$PROJECT_DIR$/2015/day_2/d2_p2_solution" beforeDir="false" />
+    <list default="true" id="f0d5f659-cc86-4440-8df6-8979869dd7f4" name="Changes" comment="Solved 2015 Day 3 Puzzle 1 in Python and Rust.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688417484049</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solved 2015 Day 3 Puzzle 1 in Python and Rust.">
+      <created>1688447143712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688447143712</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Solved 2015 Day 3 Puzzle 1 in Python and Rust.">
+      <created>1688447151031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688447151031</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +98,7 @@
     <MESSAGE value="2015 D2 P1 solved in Python and Rust." />
     <MESSAGE value="Removed Rust binaries from repo. Only code should live here." />
     <MESSAGE value="Solved 2015 Day 2 Puzzle 2 in Python and Rust." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved 2015 Day 2 Puzzle 2 in Python and Rust." />
+    <MESSAGE value="Solved 2015 Day 3 Puzzle 1 in Python and Rust." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved 2015 Day 3 Puzzle 1 in Python and Rust." />
   </component>
 </project>
