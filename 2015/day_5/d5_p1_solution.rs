@@ -1,10 +1,14 @@
 use std::fs;
 
-const VOWELS: &str = "aeiou"
+const VOWELS: &str = "aeiou";
+const NAUGHTIES: [[char; 2]; 4] = [['a', 'b'],
+                                   ['c', 'd'],
+                                   ['p', 'q'],
+                                   ['x', 'y']];
 
-fn is_vowel(c: &char) -> bool {
+fn is_vowel(c: char) -> bool {
 
-    return VOWELS.contains(c.to_lowercase())
+    return VOWELS.contains(c)
     
 }
 
@@ -19,12 +23,18 @@ fn three_vowels(s: &str) -> bool {
 }
 
 fn has_double(s: &str) -> bool {
+    s.chars()
+     .collect::<Vec<char>>()
+     .windows(2)
+     .any(|w| w[0] == w[1])
+}
 
-    for i, c in enumerate(s[:-1]):
-        if c == s[i+1]:
-            return True
-    return False
-    
+fn has_naughty(s: &str) -> bool {
+    s.to_lowercase()
+     .chars()
+     .collect::<Vec<char>>()
+     .windows(2)
+     .any(|i| NAUGHTIES.contains(&[i[0], i[1]]))
 }
 
 fn main() {
@@ -35,7 +45,7 @@ fn main() {
         .as_str()
         .lines()
         .for_each(|i| {
-            paper += paper_calc(i)
+            if three_vowels(&i) & has_double(&i) & !has_naughty(&i) { nice_strings += 1}
         });
-    println!("The elves need {} sqft of wrapping paper.", paper);
+    println!("There are {} nice strings.", nice_strings);
 }
