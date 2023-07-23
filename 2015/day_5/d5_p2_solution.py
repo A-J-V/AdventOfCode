@@ -1,7 +1,5 @@
 with open(r'./d5_input.txt', 'r') as f:
-    inpt = f.read()
-    
-lines = inpt.splitlines()
+    lines = f.read().splitlines()
 
 def flanked(string: str, debug=False) -> bool:
 
@@ -17,7 +15,7 @@ def has_duplicate_pair(string: str, debug=False) -> bool:
     # the pair or the substring after the pair. If so,
     # it is a non-overlapping duplicate.
     
-    for i, c in enumerate(string[:-1]):
+    for i in range(len(string[:-1])):
         cloned_string_left = string[:i]
         cloned_string_right = string[i+2:]
         pair = string[i: i+2]
