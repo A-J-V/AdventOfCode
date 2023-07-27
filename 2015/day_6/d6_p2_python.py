@@ -37,5 +37,5 @@ for line in lines:
     function, start, stop = parse_command(line)
     function(start, stop)
     
-print(f"The total brightness is {lights.sum()}.")
+print(f"The total brightness is {int(lights.sum())}.")
     
