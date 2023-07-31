@@ -15,12 +15,13 @@ Hold wires in a dictionary.
 5) If no gate name was found (no CAPS), this is a signal-to-wire or wire-to-wire. Don't split.
 6) For every component found in 5), check if it is a signal (digit). If not, add to wire_dict w/ value None.
 7) Append a new Gate instance to list using gate_type, input components, and output found in 2, 5, and 6.
-8) For every gate in the gate list, find the subset of gates with input values that are not None
+8) If there is another line from the puzzle's input file, go back to 1. Otherwise, go to 9.
+9) For every gate in the gate list, find the subset of gates with input values that are not None
    (meaning each input is a signal or it's value in wire_dict is not None), but with an output value
-   that IS None in the wire_dict. These are the gates that can fire and have not yet fired.
-9) Activate every gate found in 8 by passing the inputs through the gate function and updating the
+   that IS None in the wire_dict. These are the gates that are ready to fire but have not yet fired.
+10) Activate every gate found in 9 by passing the inputs through the gate function and updating the
    gate's output wire in the wire_dict.
-10) Is the target's value known? If yes, finish and print the target wire's value. If no, go to 8.
+11) Is the target's value known? If yes, finish and print the target wire's value. If not, go to 9.
 
 """
 
