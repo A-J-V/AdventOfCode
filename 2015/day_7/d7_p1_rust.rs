@@ -1,3 +1,9 @@
+/// The strategy below is to read the circuit instructions into a HashMap
+/// where the key is the wire name and the value is a struct containing the
+/// inputs and gate information.
+/// A recursive function can then be used to determine the signal of the target
+/// wire. Any input that is unknown will be recursively determined.
+
 use std::collections::HashMap;
 use std::fs;
 
@@ -126,14 +132,16 @@ fn main() {
             _ => {
                 components = Components {
                     gate: and,
-                    inp1: "butt!".to_string(),
-                    inp2: "butt!".to_string(),
+                    inp1: "".to_string(),
+                    inp2: "".to_string(),
                     value: "None".to_string(),
                 }
             }
         }
         circuit_dict.insert(outgoing_wire_name, components);
     });
+    
+    // Find the target value by calling the recursive function
     let target_value = get_signal("a", &mut circuit_dict);
     println!("The final value of 'a' is {target_value}.");
 }
